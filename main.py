@@ -16,4 +16,4 @@ def start_message(msg):
     bot.reply_to(msg, "   Your Information \n  Id : "+str(id)+" \n Name : "+ name +"\n username = @" + username + "\n \n @BC_bot_projects")
     print("1")
 print("running...")
-bot.polling()
+bot.infinity_polling()
